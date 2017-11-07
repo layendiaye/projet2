@@ -1,0 +1,139 @@
+
+ @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Lato|Pangolin|Slabo+27px|Source+Sans+Pro');
+ html,body,nav,header,section,aside,section,div,p,ul,li,h1,fieldset
+{
+	margin:0;
+	padding:0;
+	border:0;
+	box-sizing:border-box;
+}
+ .text-color
+{
+  color: #1caa98 !important;
+}
+.jumbotron
+{
+  background-image: url(../img/site_showcase_bg.jpg);
+  color: #fff;
+  height: 500px;
+}
+#jumbotron
+{
+  background-color:#1caa98;
+  color: #fff;
+  /*margin-top: 50px;
+  height: 100px;*/
+}
+#jumbotron h1
+{
+  margin-top:60px;
+  padding-bottom: 10px;
+}
+
+.jumbotron h1
+{
+  margin-top: 60px;
+
+}
+.jumbotron p
+{
+  margin-bottom: 50px;
+}
+#image1
+{
+  margin-left:30px;
+}
+#img-phone
+{
+  width: 61%;
+}
+.demo-image
+{
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+section h2
+{
+  font-size: 1em;
+}
+.btn-default
+{
+  background-color:#1caa98;
+  font-weight: bold;
+  color: yellow;
+}
+#feature
+{
+  padding-top: 20px;
+  text-align: right;
+}
+#features
+{
+  background-color: #1caa98;
+  margin-top: 50px;
+  color:#fff;
+  padding: 20px;
+  text-decoration: none;
+}
+#features ul
+{
+  list-style: none;
+  font-size: 1.5em;
+  line-height: 2em;/* espace entre les lignes*/
+}
+footer
+{
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+footer li
+{
+  list-style-type: none;
+  padding: 0 10px;
+  float: left;
+  
+}
+footer li a
+{
+	color: white;
+}
+ footer li:hover a
+{
+	list-style:none;
+	color:red !important;
+}
+a
+{
+  float: right;
+  font-family: noto serif;
+}
+#indie
+{
+    font-family: 'Pangolin', cursive;
+}
+@media (max-width:991px)
+{
+  #img-phone
+  {
+    display: none;
+  }
+}
+#form
+{
+	padding-bottom:50px;
+}
+
+/*
+    font-family: 'Encode Sans Expanded', sans-serif;
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Slabo 27px', serif;
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-family: 'Pangolin', cursive;
+
+*/

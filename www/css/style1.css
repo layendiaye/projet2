@@ -1,0 +1,31 @@
+
+ @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Lato|Pangolin|Slabo+27px|Source+Sans+Pro');
+ html,body,nav,header,section,aside,section,div,p,ul,li,h1,fieldset
+.col-xs-12,.btn-default
+{
+	text-align:center;
+}
+.btn-default
+{
+ background-color: rgb(0, 110, 255);
+ color: white;
+
+}
+h1{
+	color: rgb(0, 102, 255);
+	font-style: arial;
+	font-weight: bold;
+}
+table{
+	margin-top: 15px;
+	border-collapse: collapse;
+}
+td{
+	padding: 5px;
+	border: 1px solid black;
+}
+.first
+{
+	background-color: #82a2ff;
+	color:white;
+}

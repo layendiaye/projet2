@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>local storage</title> 					
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet"  href="css/style1.css"/>
+	<script src="js/local.js"></script>
+	<script></script>
+</head>
+<body onload="afficher()">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+					<h1>Liste des courses</h1>
+					<form>
+						<p>
+							<label for="prod">Produit:</label><br>
+							<input type="text" id="prod" size="20" placeholder="produit"><br>
+							<label for="q">Quantité:</label><br>
+							<input type="text" id="q" size="20" placeholder="quantité">
+						</p>
+						<p>
+							<input type="button" class="btn btn-default" value="Ajouter" onclick="ajouter();"> <!--onclick pour le localstorage-->
+							<input type="button" class="btn btn-default" value="Modifier" onclick="modifier();">
+							<input type="button"class="btn btn-default" value="Supprimer" onclick="supprimer();">
+						</p>
+					</form>
+					<table align="center" id="paires">
+						
+					</table>
+					<br>
+					<input type="button" class="btn btn-default" value="Clear" onclick="doClear();">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
